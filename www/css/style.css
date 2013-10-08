@@ -1,0 +1,103 @@
+root { 
+    display: block;
+}
+body {
+    font-family: arial;
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+    background: url('../img/bg-maison.png') repeat-x;
+    background-color: #777;
+}
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+.wrapper {
+    display: block;
+    position: static;
+    width: 980px;
+    margin: 0 auto;
+}
+#header {
+    width: 980px;
+    margin: 0 auto;
+}
+#header img.logo {
+    float: left;
+}
+#header .titre {
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#header h1 {
+    color: #222;
+}
+#header h2 {
+    color: #733;
+}
+#header h1, #header h2 {
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    
+}
+#menu ul {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+}
+#menu li {
+    width: 25%;
+    float: left;
+    background-color: #333;
+    text-align: center;
+}
+#menu li:hover {
+    background-color: #999;
+}
+#menu li a {
+    color: #eee;
+}
+
+#footer {
+    width: 980px;
+    margin: 0 auto;
+}
+#footer ul {
+    width: 100%;
+    list-style-type: none;
+}
+#footer li {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+#footer li:hover {
+    background-color: rgba(150, 150, 150, 0.5);
+    color: #000;
+}
+#footer li a {
+    color: #333;
+}
+
+.content {
+    width: 600px;
+    margin: 10px auto;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.searchForm label {
+    width: 120px;
+    display: block;
+    float: left;
+}
